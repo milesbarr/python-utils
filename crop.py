@@ -10,7 +10,7 @@ def crop_image_to_aspect_ratio(
     Args:
         im (Image): The image to be cropped.
         aspect_ratio (tuple[int, int]): The target aspect ratio in the
-                                        form (width, height).
+            form (width, height).
 
     Returns:
         Image: The cropped image with the specified aspect ratio.
@@ -37,7 +37,7 @@ def crop_image_to_aspect_ratio_and_shrink(
     Args:
         im (Image): The image to be processed.
         size (tuple[int, int]): The target size in the form (width,
-                                height).
+            height).
 
     Returns:
         Image: The processed image resized to the target size.

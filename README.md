@@ -10,11 +10,11 @@ Convert strings into URL-friendly slugs with `slugify.py`.
 
 ### Image Cropping
 
-Crop images to specific aspect ratios with `crop_image.py`.
+Crop images to specific aspect ratios with `crop.py`.
 
 ### Check for MD5 Hash
 
-Checks if a string is a valid MD5 hash with `is_md5.py`.
+Checks if a string is a valid MD5 hash with `md5.py`.
 
 ## Usage
 
