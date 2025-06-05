@@ -4,8 +4,7 @@ from PIL import Image
 def crop_image_to_aspect_ratio(
     im: Image, aspect_ratio: tuple[int, int]
 ) -> Image:
-    """
-    Crop an image to match a specified aspect ratio.
+    """Crop an image to match a specified aspect ratio.
 
     Args:
         im (Image): The image to be cropped.
@@ -31,8 +30,7 @@ def crop_image_to_aspect_ratio(
 def crop_image_to_aspect_ratio_and_shrink(
     im: Image, size: tuple[int, int]
 ) -> Image:
-    """
-    Crop and shrink an image to a specified size.
+    """Crop and shrink an image to a specified size.
 
     Args:
         im (Image): The image to be processed.
