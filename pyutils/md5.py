@@ -1,6 +1,6 @@
 import re
 
-_MD5_RE = re.compile(r"^[a-f0-9]{32}$")
+_MD5_RE = re.compile(r"^[a-f0-9]{32}$", flags=re.IGNORECASE)
 
 
 def is_md5(s: str) -> bool:
@@ -12,4 +12,4 @@ def is_md5(s: str) -> bool:
     Returns:
         bool: True if the string is a valid MD5 hash, False otherwise.
     """
-    return bool(_MD5_RE.match(s))
+    return bool(_MD5_RE.fullmatch(s))
