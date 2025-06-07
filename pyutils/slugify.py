@@ -3,8 +3,7 @@ import unicodedata
 
 
 def slugify(s: str) -> str:
-    """
-    Convert a string into a URL-friendly slug.
+    """Convert a string into a URL-friendly slug.
 
     This function transforms the input string to lower case,
     transliterates to ASCII, removes all characters except alphanumeric
